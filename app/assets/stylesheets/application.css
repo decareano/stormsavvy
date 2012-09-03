@@ -1,17 +1,14 @@
 /*
  *= require_self
  *= require bootstrap_and_overrides
-
- *= require twitter/bootstrap
-
  *= require_directory './site/.'
 */
 
-/*
- * Put back into comments when deploying
- * to production, currently crashes with
- * sprockets on local.
+/* 
+ * Put back into main block before deploying
+ * into production - twitter/bootstrap
+ * loading properly on heroku but not on 
+ * local. Move out of main block until bug
+ * is fixed.
 */
-
-*= require bootstrap_and_overrides
-*= require twitter/bootstrap
+ *= require twitter/bootstrap
