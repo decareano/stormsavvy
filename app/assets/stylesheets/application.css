@@ -1,7 +1,17 @@
 /*
  *= require_self
- *= require twitter/bootstrap
  *= require bootstrap_and_overrides
+
+ *= require twitter/bootstrap
 
  *= require_directory './site/.'
 */
+
+/*
+ * Put back into comments when deploying
+ * to production, currently crashes with
+ * sprockets on local.
+*/
+
+*= require bootstrap_and_overrides
+*= require twitter/bootstrap
