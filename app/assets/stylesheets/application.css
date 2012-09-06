@@ -1,14 +1,5 @@
 /*
- *= require_self
- *= require bootstrap_and_overrides
+ *= require_self 
  *= require_directory './site/.'
+ *= require bootstrap_and_overrides
 */
-
-/* 
- * Put back into main block before deploying
- * into production - twitter/bootstrap
- * loading properly on heroku but not on 
- * local. Move out of main block until bug
- * is fixed.
-*/
- *= require twitter/bootstrap
