@@ -311,6 +311,6 @@ DEPENDENCIES
   spork-rails
   sqlite3
   therubyracer
-  twitter-bootstrap-rails (= 2.1.0)
+  twitter-bootstrap-rails
   typhoeus
   uglifier (>= 1.0.3)
