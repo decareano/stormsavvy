@@ -13,17 +13,19 @@ class Report < ActiveRecord::Base
   :site_state,
   :site_zipcode,
 
+  :contract_number,
+  :project_identifier_number,
+  :wdid_number,
+  :status,
+  # end header fields
+
+  # start page 1
   :contractor_name,
   :contractor_address_1,
   :contractor_address_2,
   :contractor_city,
   :contractor_state,
   :contractor_zipcode,
-
-  :contract_number,
-  :project_identifier_number,
-  :wdid_number,
-  :status,
 
   :submitted_by_contractor,
   :submitted_by_date,
@@ -81,6 +83,7 @@ class Report < ActiveRecord::Base
   :gauge_reading_post_storm,
   # x_inches
 
+  # start page 2
   :existing_vegetation_location1,
   :existing_vegetation_location2,
   :existing_vegetation_location3,
@@ -183,8 +186,73 @@ class Report < ActiveRecord::Base
 
   :temporary_stabilization_comments1,
   :temporary_stabilization_comments2,
-  :temporary_stabilization_comments3
+  :temporary_stabilization_comments3,
   # temporary_stabilization
+
+  # start page 3
+
+  :linear_sediment_location1,
+  :linear_sediment_location2,
+  :linear_sediment_location3,
+  # temporary_linear_sediment
+
+  :correct_barrier_location1,
+  :correct_barrier_location2,
+  :correct_barrier_location3,
+  # temporary_linear_sediment
+  
+  :proper_barrier_installation1,
+  :proper_barrier_installation2,
+  :proper_barrier_installation3,
+  # temporary_linear_sediment
+
+  :maintain_when_full1,
+  :maintain_when_full2,
+  :maintain_when_full3,
+  # temporary_linear_sediment
+
+  :linear_sediment_photos1,
+  :linear_sediment_photos2,
+  :linear_sediment_photos3,
+  # temporary_linear_sediment
+
+  :linear_sediment_comments1,
+  :linear_sediment_comments2,
+  :linear_sediment_comments3,
+  # temporary_linear_sediment
+
+  :inlet_location1,
+  :inlet_location2,
+  :inlet_location3,
+  # inlet_protection
+  
+  :if_protected1,
+  :if_protected2,
+  :if_protected3,
+  # inlet_protection
+
+  :proper_protection_installation1,
+  :proper_protection_installation2,
+  :proper_protection_installation3,
+  # inlet_protection
+
+  :protection_requires_maintenance1,
+  :protection_requires_maintenance2,
+  :protection_requires_maintenance3,
+  # inlet_protection
+
+  :inlet_protection_photos1,
+  :inlet_protection_photos2,
+  :inlet_protection_photos3,
+  # inlet_protection
+
+  :inlet_protection_comments1,
+  :inlet_protection_comments2,
+  :inlet_protection_comments3,
+  # inlet_protection
+  
+  # start page 4
+  
 
   before_update :change_report_status
 
