@@ -612,15 +612,49 @@ class Report < ActiveRecord::Base
   :if_maintenance_required3,
   # project_specific
 
-  :if
+  :if_bmp_photo1,
+  :if_bmp_photo2,
+  :if_bmp_photo3,
+  # project_specific
+  
+  :project_specific_action1,
+  :project_specific_action2,
+  :project_specific_action3,
   # project_specific
 
+  :project_specific_comment1,
+  :project_specific_comment2,
+  :project_specific_comment3,
   # project_specific
 
+  :properly_located4,
+  :properly_located5,
+  :properly_located6,
   # project_specific
 
+  :properly_installed4,
+  :properly_installed5,
+  :properly_installed6,
   # project_specific
 
+  :if_maintenance_required4,
+  :if_maintenance_required5,
+  :if_maintenance_required6,
+  # project_specific
+
+  :if_bmp_photo4,
+  :if_bmp_photo5,
+  :if_bmp_photo6,
+  # project_specific
+
+  :project_specific_comment4,
+  :project_specific_comment5,
+  :project_specific_comment6,
+  # project_specific
+
+  :project_specific_action4,
+  :project_specific_action5,
+  :project_specific_action6,
   # project_specific
 
   before_update :change_report_status
