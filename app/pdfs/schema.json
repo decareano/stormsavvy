@@ -239,7 +239,7 @@
         ]
       }
       {
-        "class": "contractor_information",
+        "class": "submittal_information",
         "field_name": "submitted_by_contractor",
         "field_type": "input_html",
         "parent": "reports",
@@ -253,7 +253,7 @@
         ]
       }
       {
-        "class": "contractor_information",
+        "class": "submittal_information",
         "field_name": "submitted_by_date",
         "field_type": "input_html",
         "parent": "reports",
@@ -262,6 +262,76 @@
           {
             "top": 320,
             "left": 300,
+            "page": 1
+          }
+        ]
+      }
+      {
+        "class": "wpc_information",
+        "field_name": "wpc_manager",
+        "field_type": "input_html",
+        "parent": "reports",
+        "required": true,
+        "pdf_position": [
+          {
+            "top": 20,
+            "left": 320,
+            "page": 1
+          }
+        ]
+      }
+      {
+        "class": "wpc_information",
+        "field_name": "wpc_phone",
+        "field_type": "input_html",
+        "parent": "reports",
+        "required": true,
+        "pdf_position": [
+          {
+            "top": 20,
+            "left": 340,
+            "page": 1
+          }
+        ]
+      }
+      {
+        "class": "wpc_information",
+        "field_name": "wpc_emergency_phone",
+        "field_type": "input_html",
+        "parent": "reports",
+        "required": true,
+        "pdf_position": [
+          {
+            "top": 20,
+            "left": 360,
+            "page": 1
+          }
+        ]
+      }
+      {
+        "class": "inspector_name",
+        "field_name": "inspector_name",
+        "field_type": "input_html",
+        "parent": "reports",
+        "required": true,
+        "pdf_position": [
+          {
+            "top": 20,
+            "left": 380,
+            "page": 1
+          }
+        ]
+      }
+      {
+        "class": "inspector_name",
+        "field_name": "inspection_date",
+        "field_type": "input_html",
+        "parent": "reports",
+        "required": true,
+        "pdf_position": [
+          {
+            "top": 250,
+            "left": 380,
             "page": 1
           }
         ]
