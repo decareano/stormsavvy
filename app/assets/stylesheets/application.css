@@ -1,7 +1,5 @@
 /*
- *= require_self
- *= require twitter/bootstrap
- *= require bootstrap_and_overrides
-
+ *= require_self 
  *= require_directory './site/.'
+ *= require bootstrap_and_overrides
 */

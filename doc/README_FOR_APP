@@ -1,0 +1,11 @@
+StormSavvy: Web Application for Stormwater Professionals
+
+See application information below:
+
+Web Framework: RoR with jQuery and Bootstrap CSS
+PDF Rendering: 'Prawn' gem plug-in
+Database: SQLite3 in development & testing, Postgresql 
+  in production
+Hosting: Heroku.com
+Weather API: NOAA.gov
+Source Code: Bitbucket.org
