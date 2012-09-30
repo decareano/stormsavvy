@@ -156,14 +156,112 @@
       }
       {
         "class": "contractor_information",
-        "field_name": "status",
+        "field_name": "contractor_name",
         "field_type": "input_html",
         "parent": "reports",
         "required": true,
         "pdf_position": [
           {
-            "top": 250,
-            "left": 180,
+            "top": 20,
+            "left": 200,
+            "page": 1
+          }
+        ]
+      }
+      {
+        "class": "contractor_information",
+        "field_name": "contractor_address_1",
+        "field_type": "input_html",
+        "parent": "reports",
+        "required": true,
+        "pdf_position": [
+          {
+            "top": 20,
+            "left": 220,
+            "page": 1
+          }
+        ]
+      }
+      {
+        "class": "contractor_information",
+        "field_name": "contractor_address_2",
+        "field_type": "input_html",
+        "parent": "reports",
+        "required": true,
+        "pdf_position": [
+          {
+            "top": 20,
+            "left": 240,
+            "page": 1
+          }
+        ]
+      }
+      {
+        "class": "contractor_information",
+        "field_name": "contractor_city",
+        "field_type": "input_html",
+        "parent": "reports",
+        "required": true,
+        "pdf_position": [
+          {
+            "top": 20,
+            "left": 260,
+            "page": 1
+          }
+        ]
+      }
+      {
+        "class": "contractor_information",
+        "field_name": "contractor_state",
+        "field_type": "input_html",
+        "parent": "reports",
+        "required": true,
+        "pdf_position": [
+          {
+            "top": 40,
+            "left": 260,
+            "page": 1
+          }
+        ]
+      }
+      {
+        "class": "contractor_information",
+        "field_name": "contractor_zipcode",
+        "field_type": "input_html",
+        "parent": "reports",
+        "required": true,
+        "pdf_position": [
+          {
+            "top": 60,
+            "left": 280,
+            "page": 1
+          }
+        ]
+      }
+      {
+        "class": "contractor_information",
+        "field_name": "submitted_by_contractor",
+        "field_type": "input_html",
+        "parent": "reports",
+        "required": true,
+        "pdf_position": [
+          {
+            "top": 20,
+            "left": 300,
+            "page": 1
+          }
+        ]
+      }
+      {
+        "class": "contractor_information",
+        "field_name": "submitted_by_date",
+        "field_type": "input_html",
+        "parent": "reports",
+        "required": true,
+        "pdf_position": [
+          {
+            "top": 320,
+            "left": 300,
             "page": 1
           }
         ]
