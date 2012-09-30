@@ -1,0 +1,43 @@
+/* 
+
+  JSON schema file for rendering pdf forms,
+  fields requied:
+
+  field name
+  field id
+  class
+  field type
+  parent object (site/user/project/event)
+
+*/
+
+[
+  {
+    "form_name": "Form Name",
+    "form_id": 1,
+    "fields": [
+      {
+        "field_name": "site_id",
+        "required": true,
+        "pdf_position": [
+          {
+            "top": 20,
+            "left": 100,
+            "page": 1
+          }
+        ]
+      },
+      {
+        "field_name": "site_name",
+        "required": true,
+        "pdf_position": [
+          {
+            "top": 20,
+            "left": 130,
+            "page": 1
+          }
+        ]
+      }
+    ]
+  }
+]
