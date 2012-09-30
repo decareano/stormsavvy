@@ -1,5 +1,4 @@
 /* 
-
   JSON schema file for rendering pdf forms,
   fields requied:
 
@@ -8,16 +7,18 @@
   class
   field type
   parent object (site/user/project/event)
-
 */
 
 [
   {
-    "form_name": "Form Name",
+    "form_name": "CEM 2030 Weekly Inspection Report",
     "form_id": 1,
     "fields": [
       {
-        "field_name": "site_id",
+        "class": "site_information",
+        "field_name": "site_information_name",
+        "field_type": "input_html",
+        "parent": "reports",
         "required": true,
         "pdf_position": [
           {
@@ -28,12 +29,141 @@
         ]
       },
       {
-        "field_name": "site_name",
+        "class": "site_information",
+        "field_name": "site_address_1",
+        "field_type": "input_html",
+        "parent": "reports",
         "required": true,
         "pdf_position": [
           {
             "top": 20,
             "left": 130,
+            "page": 1
+          }
+        ]
+      }
+      {
+        "class": "site_information",
+        "field_name": "site_address_2",
+        "field_type": "input_html",
+        "parent": "reports",
+        "required": true,
+        "pdf_position": [
+          {
+            "top": 20,
+            "left": 160,
+            "page": 1
+          }
+        ]
+      }
+      {
+        "class": "site_information",
+        "field_name": "site_city",
+        "field_type": "input_html",
+        "parent": "reports",
+        "required": true,
+        "pdf_position": [
+          {
+            "top": 20,
+            "left": 180,
+            "page": 1
+          }
+        ]
+      }
+      {
+        "class": "site_information",
+        "field_name": "site_state",
+        "field_type": "input_html",
+        "parent": "reports",
+        "required": true,
+        "pdf_position": [
+          {
+            "top": 40,
+            "left": 180,
+            "page": 1
+          }
+        ]
+      }
+      {
+        "class": "site_information",
+        "field_name": "site_zipcode",
+        "field_type": "input_html",
+        "parent": "reports",
+        "required": true,
+        "pdf_position": [
+          {
+            "top": 60,
+            "left": 180,
+            "page": 1
+          }
+        ]
+      }
+      {
+        "class": "contract_information",
+        "field_name": "contract_number",
+        "field_type": "input_html",
+        "parent": "reports",
+        "required": true,
+        "pdf_position": [
+          {
+            "top": 250,
+            "left": 100,
+            "page": 1
+          }
+        ]
+      }
+      {
+        "class": "contract_information",
+        "field_name": "project_identifier_number",
+        "field_type": "input_html",
+        "parent": "reports",
+        "required": true,
+        "pdf_position": [
+          {
+            "top": 250,
+            "left": 140,
+            "page": 1
+          }
+        ]
+      }
+      {
+        "class": "contract_information",
+        "field_name": "wdid_number",
+        "field_type": "input_html",
+        "parent": "reports",
+        "required": true,
+        "pdf_position": [
+          {
+            "top": 250,
+            "left": 180,
+            "page": 1
+          }
+        ]
+      }
+      {
+        "class": "contract_information",
+        "field_name": "status",
+        "field_type": "input_html",
+        "parent": "reports",
+        "required": true,
+        "pdf_position": [
+          {
+            "top": 250,
+            "left": 180,
+            "page": 1
+          }
+        ]
+      }
+      {
+        "class": "contractor_information",
+        "field_name": "status",
+        "field_type": "input_html",
+        "parent": "reports",
+        "required": true,
+        "pdf_position": [
+          {
+            "top": 250,
+            "left": 180,
             "page": 1
           }
         ]
